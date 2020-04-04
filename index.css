@@ -23,3 +23,13 @@ body {
   color: #fffbfb;
   margin-bottom: ;
 }
+
+.thot-link {
+  color: #fffbfb;
+  margin-top: 24px;
+  transition: color 0.2s ease;
+}
+
+.thot-link:hover {
+  color: #d4d1d1;
+}
