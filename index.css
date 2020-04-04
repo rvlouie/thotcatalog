@@ -5,6 +5,10 @@ body {
   background-color: #0f0d0d;
 }
 
+p {
+  margin: 0;
+}
+
 .thot-container {
   display: flex;
   position: relative;
@@ -29,15 +33,23 @@ body {
   animation-iteration-count: 1;
 }
 
-.thot-link {
+.thot-link, .thot-tagline {
   color: #fffbfb;
-  margin-top: 24px;
-  font-size: 30px;
-  transition: color 0.2s ease;
-  position: absolute;
-  bottom: 10px;
-  right: 24px;
   text-shadow: 2px 2px 0px #000000;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.thot-link {
+  margin-top: 24px;
+  transition: color 0.2s ease;
+}
+
+.thot-link-container {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  text-align: right;
 }
 
 .thot-link:hover {
